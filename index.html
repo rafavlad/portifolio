@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Rafael Vlademir Paschoetto - Estudante de Tecnologia da Informação, projetos web, programação e soluções digitais.">
+  <title>Rafael Vlademir Paschoetto | Portfólio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Google Fonts: Space Grotesk e Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header e Menu Fixo de Navegação -->
+  <header class="site-header" id="header">
+    <nav class="nav-container" aria-label="Navegação principal">
+      <a href="#hero" class="nav-logo" aria-label="Página inicial de Rafael Paschoetto">
+        <span class="logo-accent">R</span>afael<span class="logo-dot">.</span>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre" class="nav-link">Sobre mim</a>
+        <a href="#projetos" class="nav-link">Projetos</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </div>
+
+      <div class="nav-actions">
+        <!-- Botão de alternância de tema -->
+        <button id="theme-toggle" class="btn-icon" aria-label="Alternar entre tema escuro e claro" type="button">
+          <span class="theme-icon sun-icon" aria-hidden="true">☀️</span>
+          <span class="theme-icon moon-icon" aria-hidden="true">🌙</span>
+        </button>
+
+        <!-- Botão Menu Mobile -->
+        <button id="menu-toggle" class="btn-icon mobile-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" type="button">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Seção Hero / Apresentação Inicial -->
+    <section class="hero-section" id="hero">
+      <div class="hero-interactive-bg" id="hero-bg" aria-hidden="true">
+        <div class="glow-orb orb-primary"></div>
+        <div class="glow-orb orb-secondary"></div>
+      </div>
+
+      <div class="container hero-content">
+        <span class="badge fade-in">Estudante de Tecnologia</span>
+        <h1 class="hero-title fade-in">
+          Olá, eu sou <span class="text-highlight">Rafael Vlademir Paschoetto</span>
+        </h1>
+        <p class="hero-description fade-in">
+          Tenho 17 anos e sou estudante do Ensino Médio Integrado ao curso técnico em Tecnologia da Informação. Apaixonado por programação, desenvolvimento de soluções digitais e aprendizado contínuo.
+        </p>
+        <div class="hero-cta fade-in">
+          <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+          <a href="#sobre" class="btn btn-secondary">Conhecer trajetória</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre Mim: Apresentação, Formação, Habilidades e Características -->
+    <section class="section sobre-section" id="sobre">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Apresentação</span>
+          <h2 class="section-title">Sobre mim</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card reveal">
+            <h3 class="card-title">Quem sou eu</h3>
+            <p>
+              Sou estudante do 2º ano do Ensino Médio Integrado ao curso técnico em Tecnologia da Informação no <strong>Colégio Raphael Di Santo</strong>. Tenho interesse em tecnologia da informação, programação e desenvolvimento de soluções digitais.
+            </p>
+            <p>
+              Durante minha formação, venho desenvolvendo conhecimentos em desenvolvimento web, lógica de programação, bancos de dados, redes e manutenção de computadores. Gosto de aprender novas tecnologias, trabalhar em equipe e aplicar meus conhecimentos em projetos práticos.
+            </p>
+
+            <div class="education-block">
+              <span class="education-label">Formação em andamento</span>
+              <h4 class="education-degree">2º ano do Ensino Médio Técnico em TI</h4>
+              <p class="education-school">Colégio Raphael Di Santo • 17 anos</p>
+            </div>
+          </div>
+
+          <div class="about-characteristics-card reveal">
+            <h3 class="card-title">Características pessoais</h3>
+            <ul class="characteristics-list">
+              <li>
+                <div class="feature-icon" aria-hidden="true">✦</div>
+                <div>
+                  <strong>Proatividade:</strong> Iniciativa para antecipar demandas e buscar melhorias nos projetos.
+                </div>
+              </li>
+              <li>
+                <div class="feature-icon" aria-hidden="true">✦</div>
+                <div>
+                  <strong>Criatividade:</strong> Pensamento inovador para encontrar caminhos originais em desafios digitais.
+                </div>
+              </li>
+              <li>
+                <div class="feature-icon" aria-hidden="true">✦</div>
+                <div>
+                  <strong>Facilidade e disposição para aprender:</strong> Curiosidade contínua e rápida assimilação de novos conteúdos técnicos.
+                </div>
+              </li>
+              <li>
+                <div class="feature-icon" aria-hidden="true">✦</div>
+                <div>
+                  <strong>Boa colaboração e comunicação em equipe:</strong> Facilidade para dialogar, compartilhar ideias e construir soluções coletivas.
+                </div>
+              </li>
+              <li>
+                <div class="feature-icon" aria-hidden="true">✦</div>
+                <div>
+                  <strong>Resolução de problemas:</strong> Foco em analisar cenários com clareza e transformar necessidades em código.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Conhecimentos e Habilidades Técnicas -->
+        <div class="skills-wrapper reveal">
+          <h3 class="skills-headline">Conhecimentos e habilidades técnicas</h3>
+          <p class="skills-subtext">Habilidades desenvolvidas ao longo dos estudos e projetos práticos:</p>
+
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Programação</h4>
+              <div class="tag-cloud">
+                <span class="tag">Python</span>
+                <span class="tag">Java</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4>Desenvolvimento Web</h4>
+              <div class="tag-cloud">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4>Banco de Dados</h4>
+              <div class="tag-cloud">
+                <span class="tag">SQL</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4>Infraestrutura & Suporte</h4>
+              <div class="tag-cloud">
+                <span class="tag">Fundamentos de Redes</span>
+                <span class="tag">Manutenção do Windows</span>
+                <span class="tag">Manutenção de Computadores</span>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4>Produtividade</h4>
+              <div class="tag-cloud">
+                <span class="tag">Microsoft Word</span>
+                <span class="tag">Microsoft Excel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Projetos: Galeria dos 3 projetos reais -->
+    <section class="section projetos-section" id="projetos">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Trabalhos práticos</span>
+          <h2 class="section-title">Projetos</h2>
+          <p class="section-lead">Seleção de projetos desenvolvidos e hospedados no GitHub Pages.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Projeto 1: SOMNIA -->
+          <article class="project-card reveal">
+            <div class="project-header">
+              <span class="project-number">01</span>
+              <div class="project-badge">Web Application</div>
+            </div>
+            <h3 class="project-title">SOMNIA</h3>
+            <p class="project-description">
+              Projeto web desenvolvido e publicado por Rafael Vlademir Paschoetto. Acesse a demonstração online para conferir a interface e a experiência concebida.
+            </p>
+            <div class="project-footer">
+              <a href="https://rafavlad.github.io/SOMNIA/" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>Acessar projeto</span>
+                <svg class="external-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 2: Terracraft -->
+          <article class="project-card reveal">
+            <div class="project-header">
+              <span class="project-number">02</span>
+              <div class="project-badge">Interativo</div>
+            </div>
+            <h3 class="project-title">Terracraft</h3>
+            <p class="project-description">
+              Projeto interativo autoral desenvolvido e hospedado no GitHub Pages. Explore o ambiente interativo e as mecânicas criadas no navegador.
+            </p>
+            <div class="project-footer">
+              <a href="https://rafavlad.github.io/Terracraft/" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>Acessar projeto</span>
+                <svg class="external-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 3: Trabalho React/PostgreSQL -->
+          <article class="project-card reveal">
+            <div class="project-header">
+              <span class="project-number">03</span>
+              <div class="project-badge">Full Stack / React</div>
+            </div>
+            <h3 class="project-title">Trabalho React / PostgreSQL</h3>
+            <p class="project-description">
+              Aplicação com interface em React estruturada em conjunto com conceitos de banco de dados PostgreSQL, demonstrando a integração prática entre front-end e dados.
+            </p>
+            <div class="project-footer">
+              <a href="https://rafavlad.github.io/TRABALHO-GUSTAVO-REACT-POSTGRESS/" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>Acessar projeto</span>
+                <svg class="external-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Área Interativa de Bolhas (Inspirada em Sandeep Kumar, com paleta própria) -->
+    <section class="bubbles-playground-section" aria-label="Área interativa de bolhas">
+      <div class="container text-center">
+        <h3 class="playground-title">Espaço Interativo</h3>
+        <p class="playground-subtitle">Passe o cursor ou toque nas bolhas abaixo para interagir e estourá-las!</p>
+        <div class="bubbles-canvas-container" id="bubbles-container">
+          <!-- Bolhas injetadas dinamicamente via script.js -->
+        </div>
+        <button id="reset-bubbles-btn" class="btn btn-secondary btn-sm" type="button">Gerar novas bolhas</button>
+      </div>
+    </section>
+
+    <!-- Seção Contato: Sem formulário, links diretos -->
+    <section class="section contato-section" id="contato">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Comunicação direta</span>
+          <h2 class="section-title">Contato</h2>
+          <p class="section-lead">Fique à vontade para entrar em contato ou acompanhar meus repositórios e redes.</p>
+        </div>
+
+        <div class="contact-cards-grid">
+          <!-- Telefone -->
+          <a href="tel:+5519982039467" class="contact-card reveal" aria-label="Ligar para +55 19 98203-9467">
+            <div class="contact-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Telefone / WhatsApp</span>
+              <strong class="contact-value">+55 19 98203-9467</strong>
+            </div>
+            <span class="contact-action">Chamar &rarr;</span>
+          </a>
+
+          <!-- E-mail -->
+          <a href="mailto:paschoettoclademirafael@gmail.com" class="contact-card reveal" aria-label="Enviar e-mail para paschoettoclademirafael@gmail.com">
+            <div class="contact-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">E-mail</span>
+              <strong class="contact-value">paschoettoclademirafael@gmail.com</strong>
+            </div>
+            <span class="contact-action">Enviar &rarr;</span>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/vlademir_rafael/" target="_blank" rel="noopener noreferrer" class="contact-card reveal" aria-label="Abrir perfil do Instagram @vlademir_rafael">
+            <div class="contact-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Instagram</span>
+              <strong class="contact-value">@vlademir_rafael</strong>
+            </div>
+            <span class="contact-action">Seguir &rarr;</span>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/rafavlad" target="_blank" rel="noopener noreferrer" class="contact-card reveal" aria-label="Abrir perfil do GitHub rafavlad">
+            <div class="contact-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">GitHub</span>
+              <strong class="contact-value">rafavlad</strong>
+            </div>
+            <span class="contact-action">Acessar &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="current-year">2026</span> Rafael Vlademir Paschoetto. Portfólio pessoal autoral.</p>
+      <a href="#hero" class="back-to-top" aria-label="Voltar para o topo da página">Voltar ao topo &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
